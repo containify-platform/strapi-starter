@@ -1,8 +1,10 @@
 # Strapi starter
 
+[![Deploy on Containify](https://containify.cloud/deploy-button.svg)](https://containify.cloud/templates/strapi)
+
 A [Strapi 5](https://strapi.io) project with Postgres, ready to deploy on
-[Containify](https://containify.net). It is the source of the
-[Strapi template](https://containify.net/templates/strapi).
+[Containify](https://containify.cloud). It is the source of the
+[Strapi template](https://containify.cloud/templates/strapi).
 
 What's in it:
 
@@ -29,6 +31,10 @@ schema comes from the code and can't be edited in the admin panel.
 
 ## Deploy on Containify
 
+[![Deploy on Containify](https://containify.cloud/deploy-button.svg)](https://containify.cloud/templates/strapi)
+
+One click deploys it on [Containify](https://containify.cloud). The [template page](https://containify.cloud/templates/strapi) shows what it creates, and passwords, connection strings and the HTTPS address are filled in for you.
+
 Deploy the Strapi template from the Containify catalogue. It builds this repo, adds a
 Postgres database, generates every secret and mounts a volume on `public/uploads` for
 media. To ship your own content types, fork this repo, change it locally, push, and point
@@ -48,3 +54,7 @@ the Strapi app at your fork.
 ## License
 
 MIT
+
+---
+
+Made by [Containify](https://containify.cloud): deploy apps, databases and workers from a Git repo or an image, with per-second billing. [Docs](https://containify.cloud/docs) · [Templates](https://containify.cloud/templates)
